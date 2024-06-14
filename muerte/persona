@@ -1,0 +1,22 @@
+using system;
+namespace Humano
+{
+    public class persona {
+        public string nombre;
+        public string fechanacimiento
+        public  int DNI ;         
+        public bool vivo ;
+        public persona (string nombre, string fechanacimiento, int DNI, bool vivo)
+        {
+             this.nombre=nombre;
+             this.fechanacimiento =fechanacimiento;
+             this.DNI=DNI;
+             this.vivo=vivo;
+
+
+        }
+        
+    }
+    
+}
+    
